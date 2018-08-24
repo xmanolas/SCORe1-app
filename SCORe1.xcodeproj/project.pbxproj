@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7319779C1F3473D0009B6892 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7319779B1F3473D0009B6892 /* AppDelegate.swift */; };
+		7319779E1F3473D0009B6892 /* BodyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7319779D1F3473D0009B6892 /* BodyController.swift */; };
+		731977A11F3473D0009B6892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7319779F1F3473D0009B6892 /* Main.storyboard */; };
+		731977A61F3473D0009B6892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731977A41F3473D0009B6892 /* LaunchScreen.storyboard */; };
+		731977B11F3481D3009B6892 /* BreathingA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731977B01F3481D3009B6892 /* BreathingA.mp3 */; };
+		731977B31F3490F9009B6892 /* BrainA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731977B21F3490F9009B6892 /* BrainA.mp3 */; };
+		735D789E1F3B14CC00495932 /* Binge_0_19.wav in Resources */ = {isa = PBXBuildFile; fileRef = 735D78991F3B14CC00495932 /* Binge_0_19.wav */; };
+		735D789F1F3B14CC00495932 /* Binge_20_29.wav in Resources */ = {isa = PBXBuildFile; fileRef = 735D789A1F3B14CC00495932 /* Binge_20_29.wav */; };
+		735D78A01F3B14CC00495932 /* Binge_30_39.wav in Resources */ = {isa = PBXBuildFile; fileRef = 735D789B1F3B14CC00495932 /* Binge_30_39.wav */; };
+		735D78A11F3B14CC00495932 /* Binge_40_49.wav in Resources */ = {isa = PBXBuildFile; fileRef = 735D789C1F3B14CC00495932 /* Binge_40_49.wav */; };
+		735D78A21F3B14CC00495932 /* Binge_50.wav in Resources */ = {isa = PBXBuildFile; fileRef = 735D789D1F3B14CC00495932 /* Binge_50.wav */; };
+		739555491F3B26B100D43645 /* Binge_NA.wav in Resources */ = {isa = PBXBuildFile; fileRef = 739555481F3B26B100D43645 /* Binge_NA.wav */; };
+		73D05D861F3C7C6900647ECF /* UnitsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D05D851F3C7C6900647ECF /* UnitsController.swift */; };
+		73D05D881F3C7D4600647ECF /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D05D871F3C7D4600647ECF /* MapController.swift */; };
+		73D05D8A1F3C812100647ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73D05D891F3C812100647ECF /* Assets.xcassets */; };
+		73E650701F389A5000D6EC9A /* 1_Gin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73E650691F389A5000D6EC9A /* 1_Gin.wav */; };
+		73E650711F389A5000D6EC9A /* 1_5_Lager.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73E6506A1F389A5000D6EC9A /* 1_5_Lager.wav */; };
+		73E650721F389A5000D6EC9A /* 1_6_Wine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73E6506B1F389A5000D6EC9A /* 1_6_Wine.wav */; };
+		73E650731F389A5000D6EC9A /* 2_Cocktail.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73E6506C1F389A5000D6EC9A /* 2_Cocktail.wav */; };
+		73E650741F389A5000D6EC9A /* 2_Whisky.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73E6506D1F389A5000D6EC9A /* 2_Whisky.wav */; };
+		73E650751F389A5000D6EC9A /* 2_8_BeerMix.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73E6506E1F389A5000D6EC9A /* 2_8_BeerMix.wav */; };
+		73E650761F389A5000D6EC9A /* 3_Cider.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73E6506F1F389A5000D6EC9A /* 3_Cider.wav */; };
+		73E6FC371F4C76A000282E21 /* CalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6FC361F4C76A000282E21 /* CalculatorController.swift */; };
+		73F471411F34BD180064E6B1 /* Bladder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F471401F34BD180064E6B1 /* Bladder.mp3 */; };
+		73F471431F34BD230064E6B1 /* Blood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F471421F34BD230064E6B1 /* Blood.mp3 */; };
+		73F471451F34BD2D0064E6B1 /* Eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F471441F34BD2D0064E6B1 /* Eyes.mp3 */; };
+		73F471471F34BD3C0064E6B1 /* Hearing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F471461F34BD3C0064E6B1 /* Hearing.mp3 */; };
+		73F471491F34BD550064E6B1 /* Heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F471481F34BD550064E6B1 /* Heart.mp3 */; };
+		73F4714B1F34BD5E0064E6B1 /* Kidneys.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F4714A1F34BD5E0064E6B1 /* Kidneys.mp3 */; };
+		73F4714D1F34BD670064E6B1 /* Liver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F4714C1F34BD670064E6B1 /* Liver.mp3 */; };
+		73F4714F1F34BD700064E6B1 /* Muscle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F4714E1F34BD700064E6B1 /* Muscle.mp3 */; };
+		73F471511F34BD850064E6B1 /* Speech.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F471501F34BD850064E6B1 /* Speech.mp3 */; };
+		73F471531F34BD8D0064E6B1 /* Stomach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F471521F34BD8D0064E6B1 /* Stomach.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		731977981F3473D0009B6892 /* SCORe1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCORe1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7319779B1F3473D0009B6892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7319779D1F3473D0009B6892 /* BodyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyController.swift; sourceTree = "<group>"; };
+		731977A01F3473D0009B6892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		731977A51F3473D0009B6892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		731977A71F3473D0009B6892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731977B01F3481D3009B6892 /* BreathingA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BreathingA.mp3; sourceTree = "<group>"; };
+		731977B21F3490F9009B6892 /* BrainA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BrainA.mp3; sourceTree = "<group>"; };
+		735D78991F3B14CC00495932 /* Binge_0_19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Binge_0_19.wav; sourceTree = "<group>"; };
+		735D789A1F3B14CC00495932 /* Binge_20_29.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Binge_20_29.wav; sourceTree = "<group>"; };
+		735D789B1F3B14CC00495932 /* Binge_30_39.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Binge_30_39.wav; sourceTree = "<group>"; };
+		735D789C1F3B14CC00495932 /* Binge_40_49.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Binge_40_49.wav; sourceTree = "<group>"; };
+		735D789D1F3B14CC00495932 /* Binge_50.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Binge_50.wav; sourceTree = "<group>"; };
+		739555481F3B26B100D43645 /* Binge_NA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Binge_NA.wav; sourceTree = "<group>"; };
+		73D05D851F3C7C6900647ECF /* UnitsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnitsController.swift; path = ../UnitsController.swift; sourceTree = "<group>"; };
+		73D05D871F3C7D4600647ECF /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		73D05D891F3C812100647ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73E650691F389A5000D6EC9A /* 1_Gin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1_Gin.wav; sourceTree = "<group>"; };
+		73E6506A1F389A5000D6EC9A /* 1_5_Lager.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1_5_Lager.wav; sourceTree = "<group>"; };
+		73E6506B1F389A5000D6EC9A /* 1_6_Wine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1_6_Wine.wav; sourceTree = "<group>"; };
+		73E6506C1F389A5000D6EC9A /* 2_Cocktail.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2_Cocktail.wav; sourceTree = "<group>"; };
+		73E6506D1F389A5000D6EC9A /* 2_Whisky.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2_Whisky.wav; sourceTree = "<group>"; };
+		73E6506E1F389A5000D6EC9A /* 2_8_BeerMix.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2_8_BeerMix.wav; sourceTree = "<group>"; };
+		73E6506F1F389A5000D6EC9A /* 3_Cider.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3_Cider.wav; sourceTree = "<group>"; };
+		73E6FC361F4C76A000282E21 /* CalculatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorController.swift; sourceTree = "<group>"; };
+		73F471401F34BD180064E6B1 /* Bladder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bladder.mp3; sourceTree = "<group>"; };
+		73F471421F34BD230064E6B1 /* Blood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Blood.mp3; sourceTree = "<group>"; };
+		73F471441F34BD2D0064E6B1 /* Eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Eyes.mp3; sourceTree = "<group>"; };
+		73F471461F34BD3C0064E6B1 /* Hearing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hearing.mp3; sourceTree = "<group>"; };
+		73F471481F34BD550064E6B1 /* Heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Heart.mp3; sourceTree = "<group>"; };
+		73F4714A1F34BD5E0064E6B1 /* Kidneys.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kidneys.mp3; sourceTree = "<group>"; };
+		73F4714C1F34BD670064E6B1 /* Liver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Liver.mp3; sourceTree = "<group>"; };
+		73F4714E1F34BD700064E6B1 /* Muscle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Muscle.mp3; sourceTree = "<group>"; };
+		73F471501F34BD850064E6B1 /* Speech.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Speech.mp3; sourceTree = "<group>"; };
+		73F471521F34BD8D0064E6B1 /* Stomach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stomach.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		731977951F3473D0009B6892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7319778F1F3473D0009B6892 = {
+			isa = PBXGroup;
+			children = (
+				7319779A1F3473D0009B6892 /* SCORe1 */,
+				731977991F3473D0009B6892 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		731977991F3473D0009B6892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				731977981F3473D0009B6892 /* SCORe1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7319779A1F3473D0009B6892 /* SCORe1 */ = {
+			isa = PBXGroup;
+			children = (
+				7319779B1F3473D0009B6892 /* AppDelegate.swift */,
+				7319779D1F3473D0009B6892 /* BodyController.swift */,
+				73D05D871F3C7D4600647ECF /* MapController.swift */,
+				73D05D851F3C7C6900647ECF /* UnitsController.swift */,
+				73E6FC361F4C76A000282E21 /* CalculatorController.swift */,
+				7319779F1F3473D0009B6892 /* Main.storyboard */,
+				73D05D891F3C812100647ECF /* Assets.xcassets */,
+				731977A41F3473D0009B6892 /* LaunchScreen.storyboard */,
+				731977A71F3473D0009B6892 /* Info.plist */,
+				735D78981F3B149F00495932 /* MapSounds */,
+				731977AF1F348198009B6892 /* HarmfulEffectSounds */,
+			);
+			path = SCORe1;
+			sourceTree = "<group>";
+		};
+		731977AF1F348198009B6892 /* HarmfulEffectSounds */ = {
+			isa = PBXGroup;
+			children = (
+				73F471401F34BD180064E6B1 /* Bladder.mp3 */,
+				73F471441F34BD2D0064E6B1 /* Eyes.mp3 */,
+				73F471461F34BD3C0064E6B1 /* Hearing.mp3 */,
+				731977B21F3490F9009B6892 /* BrainA.mp3 */,
+				73F4714A1F34BD5E0064E6B1 /* Kidneys.mp3 */,
+				73F471481F34BD550064E6B1 /* Heart.mp3 */,
+				73F471521F34BD8D0064E6B1 /* Stomach.mp3 */,
+				73F471501F34BD850064E6B1 /* Speech.mp3 */,
+				73F4714E1F34BD700064E6B1 /* Muscle.mp3 */,
+				73F4714C1F34BD670064E6B1 /* Liver.mp3 */,
+				73F471421F34BD230064E6B1 /* Blood.mp3 */,
+				731977B01F3481D3009B6892 /* BreathingA.mp3 */,
+				73E650681F389A2800D6EC9A /* UnitsSounds */,
+			);
+			name = HarmfulEffectSounds;
+			sourceTree = "<group>";
+		};
+		735D78981F3B149F00495932 /* MapSounds */ = {
+			isa = PBXGroup;
+			children = (
+				739555481F3B26B100D43645 /* Binge_NA.wav */,
+				735D78991F3B14CC00495932 /* Binge_0_19.wav */,
+				735D789A1F3B14CC00495932 /* Binge_20_29.wav */,
+				735D789B1F3B14CC00495932 /* Binge_30_39.wav */,
+				735D789C1F3B14CC00495932 /* Binge_40_49.wav */,
+				735D789D1F3B14CC00495932 /* Binge_50.wav */,
+			);
+			name = MapSounds;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		73E650681F389A2800D6EC9A /* UnitsSounds */ = {
+			isa = PBXGroup;
+			children = (
+				73E650691F389A5000D6EC9A /* 1_Gin.wav */,
+				73E6506A1F389A5000D6EC9A /* 1_5_Lager.wav */,
+				73E6506B1F389A5000D6EC9A /* 1_6_Wine.wav */,
+				73E6506C1F389A5000D6EC9A /* 2_Cocktail.wav */,
+				73E6506D1F389A5000D6EC9A /* 2_Whisky.wav */,
+				73E6506E1F389A5000D6EC9A /* 2_8_BeerMix.wav */,
+				73E6506F1F389A5000D6EC9A /* 3_Cider.wav */,
+			);
+			name = UnitsSounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		731977971F3473D0009B6892 /* SCORe1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731977AA1F3473D0009B6892 /* Build configuration list for PBXNativeTarget "SCORe1" */;
+			buildPhases = (
+				731977941F3473D0009B6892 /* Sources */,
+				731977951F3473D0009B6892 /* Frameworks */,
+				731977961F3473D0009B6892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCORe1;
+			productName = SCORe1;
+			productReference = 731977981F3473D0009B6892 /* SCORe1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		731977901F3473D0009B6892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "C Manolas";
+				TargetAttributes = {
+					731977971F3473D0009B6892 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 28V63TLVPQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 731977931F3473D0009B6892 /* Build configuration list for PBXProject "SCORe1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7319778F1F3473D0009B6892;
+			productRefGroup = 731977991F3473D0009B6892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				731977971F3473D0009B6892 /* SCORe1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		731977961F3473D0009B6892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731977A61F3473D0009B6892 /* LaunchScreen.storyboard in Resources */,
+				731977B11F3481D3009B6892 /* BreathingA.mp3 in Resources */,
+				739555491F3B26B100D43645 /* Binge_NA.wav in Resources */,
+				73E650741F389A5000D6EC9A /* 2_Whisky.wav in Resources */,
+				73F471471F34BD3C0064E6B1 /* Hearing.mp3 in Resources */,
+				731977A11F3473D0009B6892 /* Main.storyboard in Resources */,
+				735D789F1F3B14CC00495932 /* Binge_20_29.wav in Resources */,
+				73F471511F34BD850064E6B1 /* Speech.mp3 in Resources */,
+				735D78A11F3B14CC00495932 /* Binge_40_49.wav in Resources */,
+				73F471491F34BD550064E6B1 /* Heart.mp3 in Resources */,
+				735D78A01F3B14CC00495932 /* Binge_30_39.wav in Resources */,
+				73E650711F389A5000D6EC9A /* 1_5_Lager.wav in Resources */,
+				735D78A21F3B14CC00495932 /* Binge_50.wav in Resources */,
+				73F471451F34BD2D0064E6B1 /* Eyes.mp3 in Resources */,
+				73E650731F389A5000D6EC9A /* 2_Cocktail.wav in Resources */,
+				73F4714F1F34BD700064E6B1 /* Muscle.mp3 in Resources */,
+				731977B31F3490F9009B6892 /* BrainA.mp3 in Resources */,
+				73E650751F389A5000D6EC9A /* 2_8_BeerMix.wav in Resources */,
+				73D05D8A1F3C812100647ECF /* Assets.xcassets in Resources */,
+				73E650701F389A5000D6EC9A /* 1_Gin.wav in Resources */,
+				73F471531F34BD8D0064E6B1 /* Stomach.mp3 in Resources */,
+				73F471411F34BD180064E6B1 /* Bladder.mp3 in Resources */,
+				73E650721F389A5000D6EC9A /* 1_6_Wine.wav in Resources */,
+				735D789E1F3B14CC00495932 /* Binge_0_19.wav in Resources */,
+				73F4714D1F34BD670064E6B1 /* Liver.mp3 in Resources */,
+				73F4714B1F34BD5E0064E6B1 /* Kidneys.mp3 in Resources */,
+				73F471431F34BD230064E6B1 /* Blood.mp3 in Resources */,
+				73E650761F389A5000D6EC9A /* 3_Cider.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		731977941F3473D0009B6892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D05D881F3C7D4600647ECF /* MapController.swift in Sources */,
+				73D05D861F3C7C6900647ECF /* UnitsController.swift in Sources */,
+				73E6FC371F4C76A000282E21 /* CalculatorController.swift in Sources */,
+				7319779E1F3473D0009B6892 /* BodyController.swift in Sources */,
+				7319779C1F3473D0009B6892 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7319779F1F3473D0009B6892 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				731977A01F3473D0009B6892 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		731977A41F3473D0009B6892 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				731977A51F3473D0009B6892 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		731977A81F3473D0009B6892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		731977A91F3473D0009B6892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		731977AB1F3473D0009B6892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28V63TLVPQ;
+				INFOPLIST_FILE = SCORe1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcm.SCORe1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		731977AC1F3473D0009B6892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28V63TLVPQ;
+				INFOPLIST_FILE = SCORe1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcm.SCORe1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		731977931F3473D0009B6892 /* Build configuration list for PBXProject "SCORe1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731977A81F3473D0009B6892 /* Debug */,
+				731977A91F3473D0009B6892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731977AA1F3473D0009B6892 /* Build configuration list for PBXNativeTarget "SCORe1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731977AB1F3473D0009B6892 /* Debug */,
+				731977AC1F3473D0009B6892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 731977901F3473D0009B6892 /* Project object */;
+}
