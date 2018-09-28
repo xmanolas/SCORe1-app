@@ -19,6 +19,7 @@
 		735D78A11F3B14CC00495932 /* Binge_40_49.wav in Resources */ = {isa = PBXBuildFile; fileRef = 735D789C1F3B14CC00495932 /* Binge_40_49.wav */; };
 		735D78A21F3B14CC00495932 /* Binge_50.wav in Resources */ = {isa = PBXBuildFile; fileRef = 735D789D1F3B14CC00495932 /* Binge_50.wav */; };
 		739555491F3B26B100D43645 /* Binge_NA.wav in Resources */ = {isa = PBXBuildFile; fileRef = 739555481F3B26B100D43645 /* Binge_NA.wav */; };
+		73A8989C215E2BC100D21F9D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A8989B215E2BC100D21F9D /* Default-568h@2x.png */; };
 		73D05D861F3C7C6900647ECF /* UnitsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D05D851F3C7C6900647ECF /* UnitsController.swift */; };
 		73D05D881F3C7D4600647ECF /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D05D871F3C7D4600647ECF /* MapController.swift */; };
 		73D05D8A1F3C812100647ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73D05D891F3C812100647ECF /* Assets.xcassets */; };
@@ -43,7 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		731977981F3473D0009B6892 /* SCORe1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCORe1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		731977981F3473D0009B6892 /* SC_SWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SC_SWIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7319779B1F3473D0009B6892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7319779D1F3473D0009B6892 /* BodyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyController.swift; sourceTree = "<group>"; };
 		731977A01F3473D0009B6892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		735D789C1F3B14CC00495932 /* Binge_40_49.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Binge_40_49.wav; sourceTree = "<group>"; };
 		735D789D1F3B14CC00495932 /* Binge_50.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Binge_50.wav; sourceTree = "<group>"; };
 		739555481F3B26B100D43645 /* Binge_NA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Binge_NA.wav; sourceTree = "<group>"; };
+		73A8989B215E2BC100D21F9D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		73D05D851F3C7C6900647ECF /* UnitsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnitsController.swift; path = ../UnitsController.swift; sourceTree = "<group>"; };
 		73D05D871F3C7D4600647ECF /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		73D05D891F3C812100647ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		7319778F1F3473D0009B6892 = {
 			isa = PBXGroup;
 			children = (
+				73A8989B215E2BC100D21F9D /* Default-568h@2x.png */,
 				7319779A1F3473D0009B6892 /* SCORe1 */,
 				731977991F3473D0009B6892 /* Products */,
 			);
@@ -102,7 +105,7 @@
 		731977991F3473D0009B6892 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				731977981F3473D0009B6892 /* SCORe1.app */,
+				731977981F3473D0009B6892 /* SC_SWIFT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,9 +179,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		731977971F3473D0009B6892 /* SCORe1 */ = {
+		731977971F3473D0009B6892 /* SC_SWIFT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 731977AA1F3473D0009B6892 /* Build configuration list for PBXNativeTarget "SCORe1" */;
+			buildConfigurationList = 731977AA1F3473D0009B6892 /* Build configuration list for PBXNativeTarget "SC_SWIFT" */;
 			buildPhases = (
 				731977941F3473D0009B6892 /* Sources */,
 				731977951F3473D0009B6892 /* Frameworks */,
@@ -188,9 +191,9 @@
 			);
 			dependencies = (
 			);
-			name = SCORe1;
+			name = SC_SWIFT;
 			productName = SCORe1;
-			productReference = 731977981F3473D0009B6892 /* SCORe1.app */;
+			productReference = 731977981F3473D0009B6892 /* SC_SWIFT.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 731977931F3473D0009B6892 /* Build configuration list for PBXProject "SCORe1" */;
+			buildConfigurationList = 731977931F3473D0009B6892 /* Build configuration list for PBXProject "SC_SWIFT" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -224,7 +227,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				731977971F3473D0009B6892 /* SCORe1 */,
+				731977971F3473D0009B6892 /* SC_SWIFT */,
 			);
 		};
 /* End PBXProject section */
@@ -240,6 +243,7 @@
 				73E650741F389A5000D6EC9A /* 2_Whisky.wav in Resources */,
 				73F471471F34BD3C0064E6B1 /* Hearing.mp3 in Resources */,
 				731977A11F3473D0009B6892 /* Main.storyboard in Resources */,
+				73A8989C215E2BC100D21F9D /* Default-568h@2x.png in Resources */,
 				735D789F1F3B14CC00495932 /* Binge_20_29.wav in Resources */,
 				73F471511F34BD850064E6B1 /* Speech.mp3 in Resources */,
 				735D78A11F3B14CC00495932 /* Binge_40_49.wav in Resources */,
@@ -444,7 +448,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		731977931F3473D0009B6892 /* Build configuration list for PBXProject "SCORe1" */ = {
+		731977931F3473D0009B6892 /* Build configuration list for PBXProject "SC_SWIFT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				731977A81F3473D0009B6892 /* Debug */,
@@ -453,7 +457,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		731977AA1F3473D0009B6892 /* Build configuration list for PBXNativeTarget "SCORe1" */ = {
+		731977AA1F3473D0009B6892 /* Build configuration list for PBXNativeTarget "SC_SWIFT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				731977AB1F3473D0009B6892 /* Debug */,

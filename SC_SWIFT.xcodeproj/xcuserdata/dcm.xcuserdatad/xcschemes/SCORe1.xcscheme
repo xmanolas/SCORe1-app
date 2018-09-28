@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "731977971F3473D0009B6892"
-               BuildableName = "SCORe1.app"
-               BlueprintName = "SCORe1"
-               ReferencedContainer = "container:SCORe1.xcodeproj">
+               BuildableName = "SC_SWIFT.app"
+               BlueprintName = "SC_SWIFT"
+               ReferencedContainer = "container:SC_SWIFT.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "731977971F3473D0009B6892"
-            BuildableName = "SCORe1.app"
-            BlueprintName = "SCORe1"
-            ReferencedContainer = "container:SCORe1.xcodeproj">
+            BuildableName = "SC_SWIFT.app"
+            BlueprintName = "SC_SWIFT"
+            ReferencedContainer = "container:SC_SWIFT.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "731977971F3473D0009B6892"
-            BuildableName = "SCORe1.app"
-            BlueprintName = "SCORe1"
-            ReferencedContainer = "container:SCORe1.xcodeproj">
+            BuildableName = "SC_SWIFT.app"
+            BlueprintName = "SC_SWIFT"
+            ReferencedContainer = "container:SC_SWIFT.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "731977971F3473D0009B6892"
-            BuildableName = "SCORe1.app"
-            BlueprintName = "SCORe1"
-            ReferencedContainer = "container:SCORe1.xcodeproj">
+            BuildableName = "SC_SWIFT.app"
+            BlueprintName = "SC_SWIFT"
+            ReferencedContainer = "container:SC_SWIFT.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
